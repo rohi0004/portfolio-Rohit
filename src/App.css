@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+.star-twinkle {
+  animation: star-twinkle-animation 2s ease infinite;
+}
+
+@keyframes star-twinkle-animation {
+  0% {
+    filter: drop-shadow(0 0 5px gold);
+  }
+  50% {
+    filter: drop-shadow(0 0 15px gold);
+  }
+  100% {
+    filter: drop-shadow(0 0 5px gold);
+  }
+}
+
+
