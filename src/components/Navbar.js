@@ -6,7 +6,9 @@ import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
-import { ImBlog, ImUser } from "react-icons/im";
+import { ImUser } from "react-icons/im";
+
+// import { ImBlog, ImUser } from "react-icons/im";
 import {
   AiFillStar,
   AiOutlineHome,
@@ -103,10 +105,10 @@ function NavBar() {
             </Nav.Item> */}
             <Nav.Item>
               <Nav.Link
-                // as={Link}
-                // to=""
-                href="mailto:sahrohitkumar10@gmail.com"
-                target="_blank"
+                as={Link}
+                to="/contact"
+                // href="mailto:sahrohitkumar10@gmail.com"
+                // target="_blank"
                 rel="noreferrer"
                 onClick={() => updateExpanded(false)}
               >

@@ -567,14 +567,14 @@ button:focus {
 
 @media (max-width: 767px) {
   .tech-icons {
-    margin: 10px !important;
+    margin: 15px !important;
   }
 }
 
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
-  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+  border: 2.2px solid rgba(129, 12, 175, 0.883) !important;
 }
 .tech-icon-images {
   padding: 20px !important;
@@ -741,3 +741,8 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+/* .App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
